@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35B47DF1DFAA945008636BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35B47DE1DFAA945008636BF /* AppDelegate.swift */; };
+		D35B47E11DFAA945008636BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35B47E01DFAA945008636BF /* ViewController.swift */; };
+		D35B47E41DFAA945008636BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35B47E21DFAA945008636BF /* Main.storyboard */; };
+		D35B47E71DFAA945008636BF /* VibratePhonePOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D35B47E51DFAA945008636BF /* VibratePhonePOC.xcdatamodeld */; };
+		D35B47E91DFAA945008636BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35B47E81DFAA945008636BF /* Assets.xcassets */; };
+		D35B47EC1DFAA945008636BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35B47EA1DFAA945008636BF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D35B47DB1DFAA945008636BF /* VibratePhonePOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibratePhonePOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35B47DE1DFAA945008636BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35B47E01DFAA945008636BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35B47E31DFAA945008636BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35B47E61DFAA945008636BF /* VibratePhonePOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VibratePhonePOC.xcdatamodel; sourceTree = "<group>"; };
+		D35B47E81DFAA945008636BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35B47EB1DFAA945008636BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35B47ED1DFAA945008636BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35B47D81DFAA945008636BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35B47D21DFAA945008636BF = {
+			isa = PBXGroup;
+			children = (
+				D35B47DD1DFAA945008636BF /* VibratePhonePOC */,
+				D35B47DC1DFAA945008636BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35B47DC1DFAA945008636BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35B47DB1DFAA945008636BF /* VibratePhonePOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35B47DD1DFAA945008636BF /* VibratePhonePOC */ = {
+			isa = PBXGroup;
+			children = (
+				D35B47DE1DFAA945008636BF /* AppDelegate.swift */,
+				D35B47E01DFAA945008636BF /* ViewController.swift */,
+				D35B47E21DFAA945008636BF /* Main.storyboard */,
+				D35B47E81DFAA945008636BF /* Assets.xcassets */,
+				D35B47EA1DFAA945008636BF /* LaunchScreen.storyboard */,
+				D35B47ED1DFAA945008636BF /* Info.plist */,
+				D35B47E51DFAA945008636BF /* VibratePhonePOC.xcdatamodeld */,
+			);
+			path = VibratePhonePOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35B47DA1DFAA945008636BF /* VibratePhonePOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35B47F01DFAA945008636BF /* Build configuration list for PBXNativeTarget "VibratePhonePOC" */;
+			buildPhases = (
+				D35B47D71DFAA945008636BF /* Sources */,
+				D35B47D81DFAA945008636BF /* Frameworks */,
+				D35B47D91DFAA945008636BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibratePhonePOC;
+			productName = VibratePhonePOC;
+			productReference = D35B47DB1DFAA945008636BF /* VibratePhonePOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35B47D31DFAA945008636BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aditya Vikram Godawat";
+				TargetAttributes = {
+					D35B47DA1DFAA945008636BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TUNSVZ59XW;
+					};
+				};
+			};
+			buildConfigurationList = D35B47D61DFAA945008636BF /* Build configuration list for PBXProject "VibratePhonePOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35B47D21DFAA945008636BF;
+			productRefGroup = D35B47DC1DFAA945008636BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35B47DA1DFAA945008636BF /* VibratePhonePOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35B47D91DFAA945008636BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35B47EC1DFAA945008636BF /* LaunchScreen.storyboard in Resources */,
+				D35B47E91DFAA945008636BF /* Assets.xcassets in Resources */,
+				D35B47E41DFAA945008636BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35B47D71DFAA945008636BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35B47E11DFAA945008636BF /* ViewController.swift in Sources */,
+				D35B47DF1DFAA945008636BF /* AppDelegate.swift in Sources */,
+				D35B47E71DFAA945008636BF /* VibratePhonePOC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D35B47E21DFAA945008636BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35B47E31DFAA945008636BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35B47EA1DFAA945008636BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35B47EB1DFAA945008636BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35B47EE1DFAA945008636BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35B47EF1DFAA945008636BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35B47F11DFAA945008636BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roshit Omanakuttan (CW8DHWZDS6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roshit Omanakuttan (CW8DHWZDS6)";
+				INFOPLIST_FILE = VibratePhonePOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poc.vibratephonepoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24a549a9-c3ad-40ed-a080-ebc46cadce58";
+			};
+			name = Debug;
+		};
+		D35B47F21DFAA945008636BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VibratePhonePOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poc.vibratephonepoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35B47D61DFAA945008636BF /* Build configuration list for PBXProject "VibratePhonePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35B47EE1DFAA945008636BF /* Debug */,
+				D35B47EF1DFAA945008636BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35B47F01DFAA945008636BF /* Build configuration list for PBXNativeTarget "VibratePhonePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35B47F11DFAA945008636BF /* Debug */,
+				D35B47F21DFAA945008636BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D35B47E51DFAA945008636BF /* VibratePhonePOC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D35B47E61DFAA945008636BF /* VibratePhonePOC.xcdatamodel */,
+			);
+			currentVersion = D35B47E61DFAA945008636BF /* VibratePhonePOC.xcdatamodel */;
+			path = VibratePhonePOC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D35B47D31DFAA945008636BF /* Project object */;
+}
