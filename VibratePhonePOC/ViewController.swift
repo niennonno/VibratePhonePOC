@@ -11,7 +11,7 @@ import AudioToolbox
 
 
 class ViewController: UIViewController {
-
+    
     var i = 0
     var timer = NSTimer()
     var timer1 = NSTimer()
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         label.text = "\(j)"
         view.addSubview(label)
     }
-
+    
     
     func vibratePhone() {
         timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(vibrate), userInfo: nil, repeats: true)
@@ -48,13 +48,13 @@ class ViewController: UIViewController {
         } else {
             timer.fire()
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-
+            
         }
     }
- 
+    
     
     func secProgress() {
-
+        
         j-=1
         label.text = "\(j)"
         if j < 0 {
@@ -62,11 +62,18 @@ class ViewController: UIViewController {
             label.text = "\(j)"
             timer1.invalidate()
         } else {
-            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            //            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            
+            self.performSelector(#selector(buzz), withObject: self, afterDelay: 0)
         }
-        
     }
     
+    
+    func buzz() {
+        
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+        
+    }
     
 }
 
